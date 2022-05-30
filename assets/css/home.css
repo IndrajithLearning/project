@@ -1,0 +1,120 @@
+.malText {
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+  }
+ul.navbar-nav a {
+    margin: 0px 25px !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.carComt {
+    height: 30px;
+    top: 50%;
+}
+.sectionOne nav{
+    background-color: #930237!important;
+    overflow-x: hidden;
+}
+.sectionOne a{
+    color: #fff !important;
+}
+.sections{
+    padding: 0px 2%;
+}
+.rightheader h2,.addressSec h2{
+    color: #930237!important;
+    font-size: 32px;
+    font-family: cursive;
+}
+.rightContent {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.rightContentInner p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.rightContentBox {
+    padding:0px 7%;
+}
+
+.addressSec {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+#section1,#section2,#section3,#section4,#section5,#section6,#section7{
+    padding-top: 50px;
+}
+html 
+{
+    overflow-x: hidden;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0px;
+}
+.quote p{
+text-align: center;
+  font-size: 32px;
+  margin: 0px;
+  color: #930237;
+  font-family: cursive;
+}
+footer {
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+@media only screen and (max-width:800px) and (min-width:200px) {
+    #section2 .col-12:nth-child(1),#section4 .col-12:nth-child(1),#section6  .col-12:nth-child(1){
+        order: 2;
+        }
+        .rightContent {
+            text-align: center;
+        }
+        .rightheader h2, .addressSec h2 {
+            font-size: 30px;
+        }
+        
+        .rightContentBox {
+            padding: 5% 7%;
+        }
+        .rightContentInner p, .addressSec p {
+            font-size: 24px;
+            font-family: sans-serif;
+            padding: 2% 0px;
+            margin:0px;
+        }
+        .leftImg {
+            background: #f7f7f7;
+        }
+        .leftImg img {
+            margin: 0px auto;
+            width: 100%;
+        }
+        .addressSec {
+            padding: 3% 0px;
+        }
+        .embMap iframe {
+            width: 100%;
+        }
+        .malText {
+            font-size: 25px;
+        }
+        .navbar-light .navbar-toggler-icon {
+            background-color: #fff;
+        }
+        body{
+            overflow-x: hidden;
+        }
+        
+  }
